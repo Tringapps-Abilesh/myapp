@@ -1,0 +1,46 @@
+.side{
+    height: 1677px;
+    width: 260px;
+    background-color:#04162C ;
+}
+.logo{
+    position: relative;
+    top: 35px;
+    left: 40px;
+}
+.link{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    align-items: center;
+    color: #939598;
+    padding:20px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    
+
+}
+.link:hover {
+    background-color: rgba(255,255,255,0.05);
+    color: #FFFFFF;
+    border-left: solid;
+    border-color:#5BBC2E;
+    padding-left: 2px;
+
+}
+
+li{
+
+    list-style-type: none;
+}
+ul li img{
+    top:0;
+    left: 0;
+}
+ul {
+    display: flex;
+    top:40px;
+    position: relative;
+    flex-direction:column;
+}
